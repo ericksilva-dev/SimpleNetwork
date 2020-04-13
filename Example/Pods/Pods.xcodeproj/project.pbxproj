@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		07241C217EAD64F70964AB555D24C709 /* Pods-SimpleNetwork_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 16F6F04DF5B765FB8BEAB826A28F1F32 /* Pods-SimpleNetwork_Tests-dummy.m */; };
-		1696021B5C5A7CCD9F999A706F6D7F86 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70BF18B10973121D51D6B7F10695FBB8 /* ReplaceMe.swift */; };
 		2CCEDCA52A054E1A1C060C319E325C38 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		39A35CF4FB7C18C1EA1AB12EEA1C0F6D /* Pods-SimpleNetwork_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7ACCD4E2C6A2A5DCF2DD3BC23E65998B /* Pods-SimpleNetwork_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5360F283F0563EEE41C8B19693A99666 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
@@ -16,6 +15,10 @@
 		8AF6AA577B3C068E920FB32377D98C86 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		B26ADC53C2E6B303EB6020BD46ED3D7D /* Pods-SimpleNetwork_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E32D2CFF2D4C7624B4F0DADB2FE7F1B /* Pods-SimpleNetwork_Example-dummy.m */; };
 		DE994944DCD9E4C8F9FAFF0DD896F7C7 /* SimpleNetwork-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C7063D2E923E9F011EA328DC9A782A41 /* SimpleNetwork-dummy.m */; };
+		F4BB06922444F388005F2133 /* NetworkServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4BB06912444F388005F2133 /* NetworkServiceProtocol.swift */; };
+		F4BB06942444F3CE005F2133 /* NetworkMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4BB06932444F3CE005F2133 /* NetworkMethods.swift */; };
+		F4BB06962444F46B005F2133 /* NetworkResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4BB06952444F46B005F2133 /* NetworkResult.swift */; };
+		F4BB06982444F53C005F2133 /* NetworkProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4BB06972444F53C005F2133 /* NetworkProtocol.swift */; };
 		FE02680415F174C4FA86CD9E9C045B74 /* Pods-SimpleNetwork_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B72E90539FE88BD4E2C786CC6B16688 /* Pods-SimpleNetwork_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -49,26 +52,29 @@
 		3DADB1622F54E833F99D5DD31088DF49 /* Pods-SimpleNetwork_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SimpleNetwork_Example.release.xcconfig"; sourceTree = "<group>"; };
 		5F7DE38AAFA2F07393C0E629DD2C2C48 /* Pods-SimpleNetwork_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SimpleNetwork_Tests-Info.plist"; sourceTree = "<group>"; };
 		5FFF8B6879FB8E82367AAD7677FE5DD2 /* Pods-SimpleNetwork_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SimpleNetwork_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		70BF18B10973121D51D6B7F10695FBB8 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = SimpleNetwork/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		70E8DE00745BF82436058FA292A4C2CD /* Pods-SimpleNetwork_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SimpleNetwork_Example-frameworks.sh"; sourceTree = "<group>"; };
 		732FD9F7A3CB5CFB5C28A915EC5FEFB2 /* SimpleNetwork-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SimpleNetwork-Info.plist"; sourceTree = "<group>"; };
-		7598D292554F182326B559766E81F3F1 /* Pods_SimpleNetwork_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SimpleNetwork_Example.framework; path = "Pods-SimpleNetwork_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		7624096E4D218955B8F1DFE91E56E671 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		7598D292554F182326B559766E81F3F1 /* Pods_SimpleNetwork_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SimpleNetwork_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7624096E4D218955B8F1DFE91E56E671 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		7ACCD4E2C6A2A5DCF2DD3BC23E65998B /* Pods-SimpleNetwork_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SimpleNetwork_Tests-umbrella.h"; sourceTree = "<group>"; };
 		7E32D2CFF2D4C7624B4F0DADB2FE7F1B /* Pods-SimpleNetwork_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SimpleNetwork_Example-dummy.m"; sourceTree = "<group>"; };
 		8830CEFA942E02ADE59F26CE2F17B12F /* SimpleNetwork-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SimpleNetwork-umbrella.h"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A809EBB4DD3BA6B5352ED3AD66D451FD /* Pods_SimpleNetwork_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SimpleNetwork_Tests.framework; path = "Pods-SimpleNetwork_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A809EBB4DD3BA6B5352ED3AD66D451FD /* Pods_SimpleNetwork_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SimpleNetwork_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8703C628BC6E5B3846CCADA35116AD9 /* SimpleNetwork.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SimpleNetwork.debug.xcconfig; sourceTree = "<group>"; };
 		AE386E05E55DC6F0E2AFBC0CF4EF592B /* Pods-SimpleNetwork_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SimpleNetwork_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		AF894C20D82DE27E5F7A7ADE0583A1EB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		AF894C20D82DE27E5F7A7ADE0583A1EB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		BB6FEDCF9DA0F98F6A930BDA19DBB2E7 /* Pods-SimpleNetwork_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SimpleNetwork_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		C65A1B666CCF076C077DD036F38AB4FB /* SimpleNetwork-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SimpleNetwork-prefix.pch"; sourceTree = "<group>"; };
 		C7063D2E923E9F011EA328DC9A782A41 /* SimpleNetwork-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SimpleNetwork-dummy.m"; sourceTree = "<group>"; };
 		D5F90121A44E63A14BD1CB633AB35DDA /* Pods-SimpleNetwork_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SimpleNetwork_Tests.modulemap"; sourceTree = "<group>"; };
-		DCC2A95FB4C8BA3BAE1888F66BBC076D /* SimpleNetwork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SimpleNetwork.framework; path = SimpleNetwork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DF171B57056E303255FD3CB6AEB932DE /* SimpleNetwork.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SimpleNetwork.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		DCC2A95FB4C8BA3BAE1888F66BBC076D /* SimpleNetwork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SimpleNetwork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF171B57056E303255FD3CB6AEB932DE /* SimpleNetwork.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = SimpleNetwork.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		EA7AAE37A8A4D44A44DBA18DD3DB0D08 /* Pods-SimpleNetwork_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SimpleNetwork_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F4BB06912444F388005F2133 /* NetworkServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkServiceProtocol.swift; sourceTree = "<group>"; };
+		F4BB06932444F3CE005F2133 /* NetworkMethods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkMethods.swift; sourceTree = "<group>"; };
+		F4BB06952444F46B005F2133 /* NetworkResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkResult.swift; sourceTree = "<group>"; };
+		F4BB06972444F53C005F2133 /* NetworkProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkProtocol.swift; sourceTree = "<group>"; };
 		FC5465FEB36A87B9AF0F211D6C49269D /* Pods-SimpleNetwork_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SimpleNetwork_Example-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -130,7 +136,7 @@
 		358C94B6562FDD260279CF293C67D781 /* SimpleNetwork */ = {
 			isa = PBXGroup;
 			children = (
-				70BF18B10973121D51D6B7F10695FBB8 /* ReplaceMe.swift */,
+				F4BB06902444F335005F2133 /* Class */,
 				59A7ADCA3447F98D072DCFF8DC653358 /* Pod */,
 				7384A2FE50A519676F1185AC5A3C9DFC /* Support Files */,
 			);
@@ -212,6 +218,17 @@
 				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F4BB06902444F335005F2133 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				F4BB06912444F388005F2133 /* NetworkServiceProtocol.swift */,
+				F4BB06932444F3CE005F2133 /* NetworkMethods.swift */,
+				F4BB06952444F46B005F2133 /* NetworkResult.swift */,
+				F4BB06972444F53C005F2133 /* NetworkProtocol.swift */,
+			);
+			path = Class;
 			sourceTree = "<group>";
 		};
 		FF085FB7BF3DF69FC783BCA42FF7C011 /* Targets Support Files */ = {
@@ -317,6 +334,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
 				LastUpgradeCheck = 1100;
+				TargetAttributes = {
+					584B6EFA573C1320AF074866A7A2A34D = {
+						LastSwiftMigration = 1110;
+					};
+				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -375,7 +397,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4BB06922444F388005F2133 /* NetworkServiceProtocol.swift in Sources */,
+				F4BB06942444F3CE005F2133 /* NetworkMethods.swift in Sources */,
+				F4BB06982444F53C005F2133 /* NetworkProtocol.swift in Sources */,
 				B26ADC53C2E6B303EB6020BD46ED3D7D /* Pods-SimpleNetwork_Example-dummy.m in Sources */,
+				F4BB06962444F46B005F2133 /* NetworkResult.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -383,7 +409,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1696021B5C5A7CCD9F999A706F6D7F86 /* ReplaceMe.swift in Sources */,
 				DE994944DCD9E4C8F9FAFF0DD896F7C7 /* SimpleNetwork-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -411,6 +436,7 @@
 			baseConfigurationReference = 3DADB1622F54E833F99D5DD31088DF49 /* Pods-SimpleNetwork_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -433,6 +459,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -476,6 +503,7 @@
 			baseConfigurationReference = AE386E05E55DC6F0E2AFBC0CF4EF592B /* Pods-SimpleNetwork_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -498,6 +526,8 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -557,8 +587,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
