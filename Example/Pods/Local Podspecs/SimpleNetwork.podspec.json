@@ -1,0 +1,22 @@
+{
+  "name": "SimpleNetwork",
+  "version": "0.1.0",
+  "summary": "A short description of SimpleNetwork.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/erickkaiquesilva/SimpleNetwork",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "erickkaiquesilva": "erick.kaique.silva272@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/erickkaiquesilva/SimpleNetwork.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "SimpleNetwork/Classes/**/*"
+}

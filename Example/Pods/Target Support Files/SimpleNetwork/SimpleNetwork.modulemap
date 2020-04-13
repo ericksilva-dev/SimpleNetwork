@@ -1,0 +1,6 @@
+framework module SimpleNetwork {
+  umbrella header "SimpleNetwork-umbrella.h"
+
+  export *
+  module * { export * }
+}

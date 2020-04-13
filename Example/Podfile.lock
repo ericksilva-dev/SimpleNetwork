@@ -1,0 +1,16 @@
+PODS:
+  - SimpleNetwork (0.1.0)
+
+DEPENDENCIES:
+  - SimpleNetwork (from `../`)
+
+EXTERNAL SOURCES:
+  SimpleNetwork:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SimpleNetwork: 455f5f787ef5e6caa3598b3299146131a6dd01ad
+
+PODFILE CHECKSUM: 959a3f38dcfee6dcac8cb71e3db56c9b674c7c40
+
+COCOAPODS: 1.9.1
