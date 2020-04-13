@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SimpleNetwork_Example' do
+  pod 'SimpleNetwork', :path => '../'
+
+  target 'SimpleNetwork_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
