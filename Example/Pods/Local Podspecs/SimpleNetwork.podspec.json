@@ -1,9 +1,10 @@
 {
   "name": "SimpleNetwork",
+  "swift_versions": "5.0",
   "version": "0.1.0",
-  "summary": "A short description of SimpleNetwork.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/erickkaiquesilva/SimpleNetwork",
+  "summary": "SimpleNetwork",
+  "description": "The POD SimpleNetwork is a network layer that takes care of all the communication that the user wants to do, in the simplest and most abstract way possible.",
+  "homepage": "https://github.com/ericksilva-dev/SimpleNetwork.git",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +13,13 @@
     "erickkaiquesilva": "erick.kaique.silva272@gmail.com"
   },
   "source": {
-    "git": "https://github.com/erickkaiquesilva/SimpleNetwork.git",
+    "git": "https://github.com/ericksilva-dev/SimpleNetwork.git",
     "tag": "0.1.0"
   },
+  "social_media_url": "https://twitter.com/ErKaiqui",
   "platforms": {
-    "ios": "8.0"
+    "ios": "12.0"
   },
-  "source_files": "SimpleNetwork/Classes/**/*"
+  "source_files": "SimpleNetwork/Classes/**/*",
+  "swift_version": "5.0"
 }
